@@ -10,7 +10,7 @@
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd hng1
+cd hng0
 ```
 
 2. Install dependencies:
@@ -23,7 +23,7 @@ go mod tidy
 go run main.go
 ```
 
-The server will start on `http://localhost:8080`
+The server will start on `http://localhost:8000`
 
 ## API Endpoints
 
@@ -33,4 +33,4 @@ The server will start on `http://localhost:8080`
 ### Authentication
 - `GET /me` - Cat Fact
 
-You can view this also on `https://hng1.up.railway.app`
+
